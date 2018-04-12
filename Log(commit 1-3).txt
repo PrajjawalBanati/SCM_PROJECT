@@ -1,0 +1,156 @@
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop
+$ cd SCM_PROJECT/
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   contributor.txt
+        new file:   queue.cpp
+
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git commit -m "Commit(1) in the master branch"
+[master 2c573b4] Commit(1) in the master branch
+ 2 files changed, 56 insertions(+), 7 deletions(-)
+ rewrite contributor.txt (62%)
+ create mode 100644 queue.cpp
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git remote -v
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git remote add origin "https://github.com/500060722/SCM_PROJECT.git"
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   queue.cpp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Commit_2.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git add .
+warning: LF will be replaced by CRLF in queue.cpp.
+The file will have its original line endings in your working directory.
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git commit "Commit (2) in the master branch"
+error: pathspec 'Commit (2) in the master branch' did not match any file(s) known to git.
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git commit -m "Commit (2) in the master branch"
+[master 2a956e4] Commit (2) in the master branch
+ 2 files changed, 25 insertions(+), 1 deletion(-)
+ create mode 100644 Commit_2.png
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 35.93 KiB | 5.99 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/500060722/SCM_PROJECT.git
+   2c573b4..2a956e4  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   queue.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git commit -m "Commit (3) in the master branch"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   queue.cpp
+
+no changes added to commit
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git add .
+warning: LF will be replaced by CRLF in queue.cpp.
+The file will have its original line endings in your working directory.
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git commit -m "Commit (3) in the master branch"
+[master 45330cc] Commit (3) in the master branch
+ 1 file changed, 5 insertions(+)
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 409 bytes | 204.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/500060722/SCM_PROJECT.git
+   2a956e4..45330cc  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   queue.cpp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Commit_3.png
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git add .
+warning: LF will be replaced by CRLF in queue.cpp.
+The file will have its original line endings in your working directory.
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git commit -m "Commit (4) in the master branch"
+[master 22ad2d4] Commit (4) in the master branch
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 Commit_3.png
+
+Prajjawal Banati@DESKTOP-93D799U MINGW64 ~/Desktop/SCM_PROJECT (master)
+$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 47.59 KiB | 7.93 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/500060722/SCM_PROJECT.git
+   45330cc..22ad2d4  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
