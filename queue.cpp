@@ -54,7 +54,7 @@ switch(i)
         break;
     default: cout<<"\nPLEASE ENTER THE RIGHT CHOICE\n";
 }
-cout<<"Do you want to do another operation again ? ";
+cout<<"\nDo you want to do another operation again ? ";
 cin>>ch;
 }while(ch=='Y'||ch=='y');
 return 0;
