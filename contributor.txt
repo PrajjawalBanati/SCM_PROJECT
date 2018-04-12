@@ -1,7 +1,23 @@
-Hello everyone in this project I had made a branch named as "insert" in 
-which there will be a programme for inserting at the end and beginning. 
-After Wards I will commit and push it in the insert branch which is made 
-in nishkarsh's repo of data structures project.
+Hello everyone My nam is prajjawal. I have designed a project on queues in c++. Using git I have merged and committed the changes to the program. My contributors in this project are:
+-------------
+1. Nishkarsh
+-------------
+2. Prakhar
+-------------
+Please both of them are requested to see what they had to commit. Basically my project is on the implementation of queue with c++.My project will contain a class of queue which will contain different member functions and member variables. Also it will contain the functions of Insert,Display and Delete .
+I have made a class named as queue and inserted a funtion a of insertion in the master branch from the local repo in my machine. 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SO PLEASE REVIEW YOUR COMMITS:
+
+1. Prakhar
+Make a function of display in the queue in a separate branch named as "insert" and push it there.
+
+2.Nishkarsh
+Make a function of delete in the queue in a seprate branch named as "delete" and push it there.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+After you had committed I will merge those branches with my master branch and at last my project will be completed. So please do the above commits suggested.
 ---------------------------------------------------------------------------
 Thank you
 ---------------------------------------------------------------------------
