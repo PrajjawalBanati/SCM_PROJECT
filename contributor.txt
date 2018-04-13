@@ -4,8 +4,9 @@ Hello everyone My nam is prajjawal. I have designed a project on queues in c++. 
 -------------
 2. Prakhar
 -------------
-Please both of them are requested to see what they had to commit. Basically my project is on the implementation of queue with c++.My project will contain a class of queue which will contain different member functions and member variables. Also it will contain the functions of Insert,Display and Delete .
-I have made a class named as queue and inserted a funtion a of insertion in the master branch from the local repo in my machine. 
+Please both of them are requested to see what they had to commit. Basically my project is on the implementation of queue with c++. My project will contain a class of queue which will 
+contain different member functions and member variables.Also it will contain the functions of Insert,Display and Delete .I have made a class named as queue and inserted a funtion a of
+insertion in the master branch from the local repo in my machine. 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SO PLEASE REVIEW YOUR COMMITS:
