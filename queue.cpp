@@ -30,6 +30,14 @@ que[rear]= add_item;
 cout<<add_item<<" is inserted in the queue";
 }
 }
+//Deletion Code written By Nishkarsh Raj
+void deletion()
+{
+	int del=que[front];
+	front++;
+	cout<<"Element deleted is "<<del<<endl;
+}
+//
 };
 //Commit 2
 int main()
@@ -50,7 +58,7 @@ switch(i)
         break;
     case 2:
         break;
-    case 3:
+    case 3: obj.deletion();
         break;
     default: cout<<"\nPLEASE ENTER THE RIGHT CHOICE\n";
 }
