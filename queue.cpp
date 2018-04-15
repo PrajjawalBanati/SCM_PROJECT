@@ -30,6 +30,17 @@ que[rear]= add_item;
 cout<<add_item<<" is inserted in the queue";
 }
 }
+void display()//added by Prakhar
+{
+if(front==-1)
+cout<<"queue is empty";
+else
+  {
+    for(int k=0;k<=rear;k++)
+     cout<<que[k];
+   }
+}
+
 };
 //Commit 2
 int main()
@@ -50,7 +61,7 @@ switch(i)
         break;
     case 2:
         break;
-    case 3:
+    case 3: obj.display();//added by Prakhar
         break;
     default: cout<<"\nPLEASE ENTER THE RIGHT CHOICE\n";
 }
