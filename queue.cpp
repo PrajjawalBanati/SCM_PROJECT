@@ -46,7 +46,7 @@ cout<<"queue is empty";
 else
   {
     for(int k=0;k<=rear;k++)
-     cout<<que[k];
+     cout<<que[k]<<"\n";
    }
 }
 
