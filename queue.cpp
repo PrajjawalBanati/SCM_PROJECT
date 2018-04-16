@@ -38,6 +38,19 @@ void deletion()
 	cout<<"Element deleted is "<<del<<endl;
 }
 //
+
+void display()//added by Prakhar
+{
+if(front==-1)
+cout<<"queue is empty";
+else
+  {
+    for(int k=0;k<=rear;k++)
+     cout<<que[k];
+   }
+}
+
+
 };
 //Commit 2
 int main()
@@ -56,9 +69,9 @@ switch(i)
 {
     case 1: obj.insert();
         break;
-    case 2:
+    case 2:obj.deletion();//added by Nishkarsh
         break;
-    case 3: obj.deletion();
+    case 3: obj.display();//added by Prakhar
         break;
     default: cout<<"\nPLEASE ENTER THE RIGHT CHOICE\n";
 }
