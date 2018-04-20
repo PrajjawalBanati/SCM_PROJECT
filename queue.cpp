@@ -3,6 +3,7 @@
 using namespace std;
 class queue
 {
+	//editing by nishkarsh
 public:
 int que[5];
 int rear,front;
